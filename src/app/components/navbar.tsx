@@ -10,19 +10,7 @@ const Navbar = () => {
         <header className="text-gray-600 body-font">
   <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
   <span className="ml-3 text-xl flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">Shumi's Tec Zone</span>
-  {/* <span className="ml-3 text-xl">Shumi's Zone</span> */}
-
-    {/* { <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-     <Image
-       src="/logo-2.png"
-       alt="Logo"
-       width={30}
-       height={30}
-       priority
-     />
-     
-       <span className="ml-3 text-xl">Shumi's Zone</span>
-    </a> } */}
+ 
     <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
       <Link href={"/"} className="mr-5 hover:text-blue-600">Home</Link>
       <Link  href={"#about"} className="mr-5 hover:text-gray-900">About</Link>
